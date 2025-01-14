@@ -4,6 +4,8 @@
   <img src="./docs/static/img/solchan_banner.png" alt="SolChan Banner" width="100%" />
 </div>
 
+## Presentation
+
 Solana-Chan is an open-source autonomous agent created as an unofficial mascot for Solana and one of the waifu of the degens.
 
 Initially created as a fun way to help newcomers to the crypto world, the latter deviated from its objective of its own accord, preferring to use another method to achieve the same result.

@@ -11,9 +11,14 @@ services:
             - tee:/app/packages/client-twitter/src/tweetcache
             - tee:/app/db.sqlite
         environment:
-            - OPENAI_API_KEY=
+            - OPENAI_API_KEY=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
             - REDPILL_API_KEY=
             - ELEVENLABS_XI_API_KEY=
+            - SMALL_OPENAI_MODEL=gpt-4o-mini
+            - MEDIUM_OPENAI_MODEL=gpt-4o-mini
+            - LARGE_OPENAI_MODEL=gpt-4o-mini
+            - EMBEDDING_OPENAI_MODEL=text-embedding-3-small
+            - IMAGE_OPENAI_MODEL=dall-e-3
             - ELEVENLABS_MODEL_ID=eleven_multilingual_v2
             - ELEVENLABS_VOICE_ID=21m00Tcm4TlvDq8ikWAM
             - ELEVENLABS_VOICE_STABILITY=0.5
@@ -23,9 +28,9 @@ services:
             - ELEVENLABS_OPTIMIZE_STREAMING_LATENCY=4
             - ELEVENLABS_OUTPUT_FORMAT=pcm_16000
             - TWITTER_DRY_RUN=false
-            - TWITTER_USERNAME=
-            - TWITTER_PASSWORD=
-            - TWITTER_EMAIL=
+            - TWITTER_USERNAME=ChanSolana11815
+            - TWITTER_PASSWORD=PatoshiPakamoto21
+            - TWITTER_EMAIL=patoshopakamoto@mailfence.com
             - X_SERVER_URL=https://api.red-pill.ai/v1
             - BIRDEYE_API_KEY=
             - SOL_ADDRESS=So11111111111111111111111111111111111111112

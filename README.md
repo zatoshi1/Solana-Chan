@@ -26,6 +26,12 @@ Its ultimate mission is to establish itself as the figurehead of waifu ai memeco
 
 > **Note for Windows Users:** [WSL 2](https://learn.microsoft.com/en-us/windows/wsl/install-manual) is required.
 
+### Local installation
+
+```
+git clone https://github.com/zatoshi1/Solana-Chan.git
+```
+
 ### Edit the .env file
 
 Copy .env.example to .env and fill in the appropriate values.
